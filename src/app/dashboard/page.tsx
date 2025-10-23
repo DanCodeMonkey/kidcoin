@@ -12,11 +12,9 @@ export default function Login(){
             <LandingPageMenu />
             <div className="flex justify-center">
                 <div className="flex flex-col items-center justify-center w-100 h-100">
-                    <form action="">
-                        <InputUser label={"User"} inputName={"user"} id={"user"} />
-                        <InputPass label={"Senha"} inputName={"senha"} id={"senha"} />
-                        <button className="bg-blue-700 px-5 py-1 rounded-md text-white">Entrar</button>
-                    </form>
+                    
+                        <button className="bg-blue-700 px-5 py-1 rounded-md text-white cursor-pointer active:translate-y-[2px]">Consultar aluno</button>
+                   
                 </div>
             </div>
            
